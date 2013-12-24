@@ -1,0 +1,23 @@
+******** Initial Ideas for RaspberryPi Home automation project*******************************
+
+(1) Create a prototype with a single room, single switchboard.
+(2) 4 active devices & 8 total devices capability.
+(3) Only on off functions supported.
+(4) Current h/w architechure is as below:
+    RPi --> RFM70 (Wifi Transreciver) --> Relay --> Microcontroller --> toggle switch
+(5) Current s/w architecture is a belwo:
+    On Server:  RPi --> Debian (Wheezy) --> Apache (PHP)+ CSV + Python --> Wireless broadcast (hostapd) 
+    On Client:  Client (Laptop/Mobile/PC) --> Browser --> HTML+CSS+Jquery
+
+(6) Interface from RPi/GPIO to h/w will be seriel (SPI), power h/w not considered.
+
+
+******** Front end UI ideas *****************************************************************
+
+Front end pages software stack:
+PHP, Bootstrap CSS, Jquery , Optional Javascript
+
+Frontend to backend (python) messeging stack:
+PHP, Python, mRabbit, Bash 
+
+
